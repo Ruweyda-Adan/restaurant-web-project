@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Cafe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="download2.jpg" alt="One Cafe Logo">
+                </a>
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <div class="hero-text">
+                    <h2>Welcome to One Cafe</h2>
+                    <p>Experience a taste of paradise.</p>
+                    <a href="#menu" class="button">Explore Our Menu</a>
+                </div>
+                <img src="download1.jpg" alt="Restaurant Ambiance" class="hero-image">
+            </div>
+        </section>
+
+        <section class="about-us" id="about">
+            <div class="container">
+                <h2>About One Cafe</h2>
+                <p>One Cafe is a haven for food lovers, offering a delectable variety of dishes prepared with fresh, high-quality ingredients. Our passionate chefs create culinary masterpieces that tantalize the taste buds and leave you wanting more. We are dedicated to providing exceptional service in a warm and inviting atmosphere, making your dining experience truly unforgettable.</p>
+            </div>
+        </section>
+
+        <section class="menu" id="menu">
+            <div class="container">
+                <h2>Our Menu</h2>
+                <div class="menu-categories">
+                    <div class="menu-category">
+                        <h3>Main Courses</h3>
+                        <div class="menu-item">
+                            <img src="pizza.jpg" alt="Pizza">
+                            <h4>Pizza</h4>
+                            <p>Delicious wood-fired pizza with various toppings.</p>
+                            <p>Price: $10.00</p>
+                        </div>
+                        <div class="menu-item">
+                            <img src="pasta.jpg" alt="Pasta">
+                            <h4>Pasta</h4>
+                            <p>Homemade pasta with your choice of sauce.</p>
+                            <p>Price: $12.00</p>
+                        </div>
+                        </div>
+                    <div class="menu-category">
+                        <h3>Desserts</h3>
+                        <div class="menu-item">
+                            <img src="cake.jpg" alt="Cake">
+                            <h4>Chocolate Cake</h4>
+                            <p>Indulge in our rich and decadent chocolate cake.</p>
+                            <p>Price: $5.00</p>
+                        </div>
+                        <div class="menu-item">
+                            <img src="ice cream.jpg" alt="Ice Cream">
+                            <h4>Ice Cream Sundaes</h4>
+                            <p>A variety of delicious ice cream sundaes.</p>
+                            <p>Price: $6.00</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+
+        <section class="feedback">
+            <div class="container">
+                <h2>Customer Feedback</h2>
+                <p>We value your feedback!</p>
+                <form class="feedback-form">
+                    <div class="form-group">
+                        <label for="rating">Overall Rating:</label>
+                        <select id="rating" name="rating">
+                            <option value="1">1 Star</option>
+                            <option value="2">2 Stars</option>
+                            <option value="3">3 Stars</option>
+                            <option value="4">4 Stars</option>
+                            <option value="5">5 Stars</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Your Comment:</label>
+                        <textarea id="comment" name="comment" rows="4"></textarea>
+                    </div>
+                    <button type="submit">Submit Feedback</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="contact-us">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <p>We'd love to hear from you!</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 One Cafe. All rights reserved.</p>
+            <div class="social-media">
+                </div>
+            </div>
+        </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

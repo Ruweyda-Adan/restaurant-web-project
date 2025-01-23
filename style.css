@@ -1,0 +1,211 @@
+/* General Styles */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section Styles */
+.logo img {
+    max-height: 90px; 
+}
+.hero {
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.hero-image {
+    max-width: 800px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* About Section Styles */
+
+.about {
+    background-color: #f0f0f0;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+/* Feedback Section Styles */
+
+.feedback {
+    background-color: #fff;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+.feedback label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Menu Section Styles */
+
+
+.menu {
+    padding: 50px 0;
+}
+
+.menu h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-category {
+    flex: 1;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}
+
+.menu-category h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.menu-item {
+    margin-bottom: 20px;
+}
+
+.menu-item img {
+    max-width: 150px; /* Increased image size */
+    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto; /* Center images */
+}
+
+
+
+
+
+
+
+.menu-categories {
+    display: flex; /* Or use flexbox or grid for better layout */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between; /* Space items evenly */
+}
+
+.menu-category {
+    flex: 1; /* Give each category equal space */
+    margin-bottom: 30px;
+}
+
+.menu-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.menu-item img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.contact-us {
+    padding: 50px 0;
+}
+
+.contact-us h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.contact-us button {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Footer Styles */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Media Query for Smaller Screens */
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .hero-image {
+        max-width: 100%;
+    }
+}
